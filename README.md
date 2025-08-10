@@ -6,29 +6,6 @@ It classifies tweets as **Positive 😀** or **Negative 😞** using a **TF-IDF 
 Additionally, a **modern GUI** (built with `CustomTkinter`) allows real-time prediction of tweet sentiment.
 
 
-##  Project Structure
-
-📂 Twitter Sentiment Analysis
-│
-├── sentiment140.csv # Raw dataset (1.6M tweets)
-│
-├── data_preprocessing.py # Cleans raw CSV data, saves preprocessed CSV
-├── 📂 data
-│    │
-│    └── cleaned_sentiment140.csv # Preprocessed dataset
-│
-├── tfidf_training.py # Trains TF-IDF + Logistic Regression model
-├── app_gui.py # Modern GUI for real-time sentiment prediction
-│
-├── 📂 models
-│     │
-│     ├── sentiment_model.pkl # Saved trained model
-│     └── tfidf_vectorizer.pkl # Saved TF-IDF vectorizer
-│
-├── README.md # Project documentation
-└── requirements.txt # Dependencies list
-
-
 ## Models Used
 
 #### TF-IDF Vectorizer
